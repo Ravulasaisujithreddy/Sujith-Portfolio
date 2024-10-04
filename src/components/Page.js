@@ -3,7 +3,7 @@ import { FaChevronDown, FaEnvelope, FaPhone, FaLinkedin, FaGithub} from 'react-i
 import Header from './Header';
 import Section from './Section';
 import Button from './Button';
-import { Card, CardContent, CardTitle, CardDescription } from './Card';
+import { Card, CardContent} from './Card';
 import imageSrc from '../utils/IMG_20221120_085848-01.JPG';
 
 
