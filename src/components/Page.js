@@ -15,7 +15,7 @@ import profileImage from '../utils/DSC03501.jpg';
 import hpLogo from '../utils/640px-HP_logo_2012.svg.png';
 import gmuLogo from '../utils/yt_profile_800x800-2x.jpg';
 import manipalLogo from '../utils/manipal logo (1).png';
-import tenetLogo from '../utils/tenet-healthcare-logo.png';
+import gsLogo from '../utils/Goldman_Sachs.svg.png';
 import sparksLogo from '../utils/logo.png';
 import vasLogo from '../utils/image.png';
 
@@ -74,10 +74,9 @@ export function Page() {
             <h2 className={`text-4xl font-bold mb-4 bg-clip-text text-transparent ${isDarkMode ? 'bg-gradient-to-r from-blue-400 to-teal-500' : 'bg-gradient-to-r from-blue-500 to-teal-400'}`}>Sai Sujith Reddy Ravula</h2>
             <p className={`text-xl ${isDarkMode ? 'text-blue-400' : 'text-blue-600'} mb-6`}>Software Engineer</p>
             <p className={`max-w-4xl mx-auto text-lg ${isDarkMode ? 'text-gray-300' : 'text-black'}`}>
-              Software Engineer with 3+ years experience in building cloud-native, event-driven web applications and microservices. 
+              Software Engineer with 4 years experience in building cloud-native, event-driven web applications and microservices. 
               Hands-on expertise in Java, Node.js, Spring Boot, React, and AWS with a strong background in RESTful APIs, CI/CD, 
-              and low-latency architecture. Proven success in HIPAA-compliant healthcare systems, delivering production-grade 
-              applications, and optimizing system performance across full-stack ecosystems.
+              and low-latency architecture. Proven success in improving system performance, automating CI/CD pipelines, and enhancing system observability using modern monitoring tools. Seeking backend or platform engineering roles focused on distributed systems, API development,UX/UI Design, and cloud infrastructure.
             </p>
           </div>
           <div className="mt-8">
@@ -96,25 +95,22 @@ export function Page() {
     {[
       {
         title: "Software Engineer",
-        company: "Tenet Healthcare",
-        location: "Washington, DC",
+        company: "Goldman Sachs",
+        location: "Hybrid",
         period: "March 2024 - Present",
-        logo: tenetLogo,
+        logo: gsLogo,
         responsibilities: [
-          "Engineered HIPAA-compliant microservices using Java/Spring Boot and Kafka, processing 12,000+ patient records/day with 99.9% data accuracy",
-          "Reduced API latency by 35% through Redis caching and PostgreSQL query optimization",
-          "Engineered secure OAuth2/JWT-based REST APIs for EHR system integration",
-          "Developed 40+ reusable React/TypeScript components with Redux, cutting frontend development time by 30%",
-          "Deployed cloud-native applications to AWS EC2, EKS, and RDS, achieving 99.9% uptime",
-          "Orchestrated containerized microservices with Kubernetes and Helm, reducing release rollback risk by 70%",
-          "Implemented CI/CD pipelines with Jenkins and GitHub Actions, reducing deployment errors by 60%"
+          "Developed scalable REST APIs using Java (Spring Boot) and Python (Django) to power enterprise business processes, enabling real-time communication between modules and improving overall workflow efficiency by over 20%.",
+          "Designed efficient and secure data access patterns by optimizing SQL queries in MySQL and PostgreSQL and integrating Snowflake for analytical workloads, which reduced latency and significantly improved dashboard responsiveness.",
+          "Led the design and deployment of microservices using Spring Boot and Docker, orchestrated via AWS services such as EC2, Lambda, and S3, contributing to application scalability and ensuring continuous availability with 99.9% uptime.",
+          "Automated comprehensive test suites using JUnit and Mockito for unit and integration testing while using Postman for validating API endpoints, achieving over 90% test coverage and reducing post-deployment defects by 25%."
         ]
       },
       {
         title: "Software Engineer",
         company: "Hewlett-Packard Inc",
         location: "Bangalore, India",
-        period: "Feb 2022 - Dec 2022",
+        period: "Jun 2020 - Jan 2023",
         logo: hpLogo,
         responsibilities: [
           "Developed Spring Boot APIs handling 2M+ daily requests with 95% code coverage (JUnit/Mockito)",
@@ -330,7 +326,7 @@ export function Page() {
                       </div>
                     </div>
                     <div className="text-right">
-                      <p className="text-sm sm:text-base">{edu.period}</p>
+                      
                       <p className="text-sm sm:text-base font-medium">GPA: {edu.gpa}</p>
                       {edu.contributions && (
                         <p className="text-xs text-gray-500 dark:text-gray-400">Dean Scholarship Award</p>
