@@ -120,19 +120,7 @@ export function Page() {
           "Applied Spring Security and JWT token-based authentication to protect APIs"
         ]
       },
-      // ADDED: Vas Technologies experience
-      {
-        title: "Full Stack Developer (Java/React)",
-        company: "Vas Technologies Inc",
-        location: "Hyderabad, India",
-        period: "May 2021 - Jan 2022",
-        logo: vasLogo, // Use placeholder if no specific logo
-        responsibilities: [
-          "Migrated legacy frontend to React.js with Redux and React Router, improving page load speed by 25%",
-          "Built Node.js and Express.js REST APIs integrated with PostgreSQL and Redis handling 5K+ daily requests with 99ms latency",
-          "Applied Agile methodologies with 2-week sprints, sprint planning, code reviews, and deployments"
-        ]
-      },
+      
       // ADDED: Sparks Foundation experience
       {
         title: "Android Developer Intern",
